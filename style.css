@@ -1,0 +1,114 @@
+*{  /* Universal selector dia full page k sellect kore margin and padding er value 0px koresi. karon defult vabe kiso margin and padding thake. */
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif; /* fonts.google ai website theke 2 ta link paoa jai. akti html er head a and arekti css a use kora hoi. */
+}
+.container{
+    max-width:1000px;
+    background-color:#E4F9F5;
+    margin:0 auto; /* top and bottom,left,right a margin 0px hobe and small screen, full screen a center a thakbe.  */
+    padding:20px; /* Image ,bio aigulo  khub uporer theke start hoi. Kinto akto niche theke start korar jonno container er padding dewa jai. */
+}
+header{
+
+}
+.profile-image{
+    width:100px;
+    height:120px;
+    border:3px solid black;
+    border-radius:50%;
+    float:left; /* 1st a image left a thakbe than header bio class k a float:left a dita hobe*/
+}
+.header-bio{
+    float:left;
+    padding:30px; /* text k akto niche nilam*/
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e; /* h1,h2,h3,h4,h5,h6 element er joto  text ase sob text k color korlam */
+
+}
+.header-contact{
+    float:right;
+    padding:30px; /* contact gulo 4 site a space nilam */
+}
+.header-contact a{    /* aikhane header-contact er kiso style none kore dita hobe */
+    text-decoration:none;
+    color:teal;
+    font-weight:bold;
+}
+.header-contact a:hover{    /* ar aikhane jokhon mouse cursor nia hover korbo tokhon bivinno style show korbe. */
+    text-decoration:underline;
+    color:tomato;
+}
+.div-clear{    /* opore onekgulo div use kora hoiase. aigulo clear na krle hr row thikvabe kaz korbena. tai clear:both property use kora hoi. */
+    clear:both;
+}
+hr{ 
+    border:3px solid black;  /* jeheto hr tag er moddhe kono text thakena tai kono texter 4 dika border create kore but middle a faka jaiga dekha dekha jaina. */
+    width:100%;
+    margin:20px auto;  /* horizental row 4 dika 20px margin niba and auto dara bujhai all time center a thakbe. */
+    border-bottom:none;  /* nicher dikar border none korlam. */
+}
+
+/*personal section start */
+#personal-section{
+
+}
+.content{  
+    margin-bottom:30px; /* content gulo k horizental row er akto niche theke start korbe  */
+}
+
+.left-div{
+    width:30%;
+    float:left;
+}
+.right-div{
+    width:70%;
+    float:right;
+}
+.common-hr{
+    border:1px solid black;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+
+.div1{
+    width:35%;
+    float:left;
+   
+}
+.div2{
+    width:35%;
+    float:right;
+}
+
+
+/*persoanl section end*/
+
+/*Footer Section Start */
+.footer-bottom-container{
+    background-color:black;
+    text-align:center;
+    padding:10px;
+   
+}
+.footer-bottom-container a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+.footer-bottom-container p{
+    color:white;
+    margin-top:10px;
+}
+.footer-bottom-container a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+
+/*Footer Section End */
